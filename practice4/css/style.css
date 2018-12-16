@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css?family=Aleo|Titillium+Web');
+
+
+.sec1{
+	height: 50px;
+	background-color: teal;
+	font-family: Titillium Web;
+	text-align: left;
+	text-transform: uppercase;
+	color: white;
+	font-size: 23px;
+	font-weight: bolder;
+	vertical-align: center;
+
+}
+
+.picture{
+		height: 300px;
+		background-color: white;
+		background-image: url(../img/STARTUP.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+}
+
+.links{
+	height: 50px;
+	background-color: #008080;
+	font-family: Titillium Web;
+	text-transform: uppercase;
+	color: white;
+	font-size: 23px;
+	vertical-align: center;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.textheading{
+	font-family: Titillium Web;
+	text-transform: uppercase;
+	line-height: 50px;
+	font-size: 23px;
+	font-weight: bolder;
+}
+
+.text1{
+	font-family: Aleo;
+	line-height: 21px;
+}
+
+.middle{
+	font-family: Aleo;
+	line-height: 30px;
+}
+
+.t2{
+	font-family: Aleo;
+	line-height: 21px;
+}
+
+.bottom{
+	height: 50px;
+	background-color: #008080;
+	font-family: Titillium Web;
+	text-transform: uppercase;
+	color: white;
+	vertical-align: center;
+
+}
