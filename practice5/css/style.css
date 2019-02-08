@@ -1,0 +1,61 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Fahkwang|Roboto');
+
+header{
+	height: 40px;
+	padding: 10px;
+	background-color: blue;
+	text-transform: uppercase;
+	color: white;
+	font-family: sans-serif;
+}
+
+section{
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 20px 10px;
+}
+
+
+.first{
+	height: 520px;
+	width: 210px;
+	border-color: grey;
+	border-width: 5px;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.second{
+	height: 520px;
+	width: 210px;
+	border-color: grey;
+	border-width: 5px;
+	border-radius: 10px;
+}
+
+.third{
+	height: 520px;
+	width: 210px;
+	border-color: grey;
+	border-width: 5px;
+	border-radius: 10px;
+}
+
+
+.title{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+footer{
+	height: 40px;
+	padding: 10px;
+	background-color: blue;
+	text-transform: uppercase;
+	color: white;
+	font-family: sans-serif;
+}
