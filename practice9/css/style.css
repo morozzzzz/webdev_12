@@ -1,0 +1,69 @@
+@import url(reset.css);
+
+form{
+	width: 80%;
+	margin: auto;
+}
+
+.form{
+	font-family: sans-serif;
+}
+
+input, select, textarea {
+	display: block;
+	font-size: 20px;
+	color: lightgrey;
+	width: 100%;
+	border: 2px solid navy;
+	border-radius: 5px;
+}
+
+input{
+	height: 40px;
+}
+
+label{
+	line-height: 2rem;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input:focus, textarea:focus, select:focus{
+	outline: none;
+}
+
+textarea{
+	height: 300px;
+}
+
+input[type="submit"] {
+	background-color: navy;
+	color: turquoise;
+	height: 50px;
+	cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+	background-color: mediumblue;
+}
+
+
+@media screen and (min-width: 1025px) /*ipad horizontal*/ {
+	form{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.image{
+		background-image: url(../img/laptop.jpg);
+		width: 49%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+
+	.forms{
+		width: 49%;
+	}
+}
